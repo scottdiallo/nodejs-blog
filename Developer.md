@@ -7,7 +7,7 @@
 
 [See Node.js + Heroku Instructions Here](http://node-example-csanz.herokuapp.com/)
 
-You'll need to add a new config entry using heroku terminal utility. 
+You'll need to add a new config entry using heroku terminal utility.
 
       heroku config:add NODE_ENV=production
 
