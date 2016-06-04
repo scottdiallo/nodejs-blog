@@ -1,29 +1,30 @@
 {
-  "name": "expressjs-blog",
-  "version": "0.1.8",
-  "homepage": "http://node-blog-example.herokuapp.com/",
-  "description": "ExpressJS sample blog that uses Mongoose, Jade, Stylus and AJAX/jQuery",
-  "repository": "git@github.com:csanz/expressjs-blog.git",
-  "author": "Christian Sanz <chrissanz@gmail.com>",
-  "dependencies": {
-    "express": "3.0.0",
-    "express-expose": "0.2.2",
-    "express-messages": "0.0.x",
-    "express-mongoose": "0.0.x",
-    "express-resource": "0.2.4",
-    "express-session": "^1.13.0",
-    "jade": "0.25.x",
-    "mongoose": "2.5.10",
-    "nib": "0.3.x",
-    "pusher": "0.0.x",
-    "stylus": "0.22.x"
-  },
-  "main": "./index.js",
-  "engines": {
-    "node": "0.6.x",
-    "npm": "1.0.x"
-  },
-  "scripts": {
-    "start": "node index.js"
-  }
+    "name": "expressjs-blog",
+    "version": "0.1.8",
+    "homepage": "http://node-blog-example.herokuapp.com/",
+    "description": "ExpressJS sample blog that uses Mongoose, Jade, Stylus and AJAX/jQuery",
+    "repository": "git@github.com:csanz/expressjs-blog.git",
+    "author": "Christian Sanz <chrissanz@gmail.com>",
+    "dependencies": {
+        "express": "3.0.0",
+        "express-expose": "0.2.2",
+        "express-messages": "0.0.x",
+        "express-mongoose": "0.0.x",
+        "express-resource": "0.2.4",
+        "express-session": "^1.13.0",
+        "jade": "0.25.x",
+        "mongoose": "2.5.10",
+        "nib": "0.3.x",
+        "pusher": "0.0.x",
+        "redis": "^2.6.1",
+        "stylus": "0.22.x"
+    },
+    "main": "./index.js",
+    "engines": {
+        "node": "~0.8.5",
+        "npm": "1.0.x"
+    },
+    "scripts": {
+        "start": "node index.js"
+    }
 }
