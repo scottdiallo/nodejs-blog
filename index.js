@@ -15,11 +15,11 @@ var server = http.createServer(function (req, res) {
 });
 
 
-//try {
-//    //  require.paths = require.paths.unshift(__dirname + '/../node_modules');
-//} catch (e) {
-//    process.env.NODE_PATH = path.join(__dirname, '/../node_modules') + ':' + process.env.NODE_PATH
-//}
+try {
+    //  require.paths = require.paths.unshift(__dirname + '/../node_modules');
+} catch (e) {
+    process.env.NODE_PATH = path.join(__dirname, '/../node_modules') + ':' + process.env.NODE_PATH
+}
 
 require('./lib/exceptions')
 
